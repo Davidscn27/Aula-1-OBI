@@ -3,17 +3,13 @@
 using namespace std;
 
 int main(void){
-    int a, b, soma;
+    int a, b, res;
 
-    cout << "Qual o primeiro número? ";
-    cin >> a;
+    cout << "Escreva os 2 números ";
+    cin >> a >> b;
 
-    cout << "Qual o segundo número? ";
-    cin >> b;
+    res = a % b;
 
-    soma = a + b; 
-
-    cout << "A soma é " << soma << endl;
-
+    cout << "A resposta é: " << res << endl;
     return 0;
 }
