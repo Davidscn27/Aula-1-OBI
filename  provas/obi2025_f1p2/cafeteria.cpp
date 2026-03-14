@@ -10,13 +10,11 @@ int main (void){
     for (int i = 0; i <= C - A; i = i + D){
         if (C - i >= A && C - i <= B){
             cout << "S" "\n";
-
             return 0;
         }
-
+        
     }
-
-    cout << "N" "\n";
-
+    cout << "N\n";
     return 0;
+    
 }

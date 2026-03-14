@@ -19,16 +19,16 @@ int main(void){
     for(int i = 0; i < N; i++){
         for(int j = 0; j < 3; j++){
             if(j == 1){
-                total = D[i][j]*9
+                total = D[i][j]*9;
             }else{
                 total += D[i][j]*4;
             }
         }
     }
 
-    res = M - total
+    res = M - total;                
 
-    cout << "res " << "\n";
+    cout << res << "\n";
 
     return 0;
 }
