@@ -17,7 +17,7 @@ int main(void){
         T += P*4 + G*9 + C*4;
     }
 
-    int R = M - T; //R = é 
+    int R = M - T; //R = resto de calorias sobrando
 
     if(R > 0){
     cout << "Garfield pode comer " << R << " calorias ainda. " << "\n";
